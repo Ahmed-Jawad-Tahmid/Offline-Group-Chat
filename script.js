@@ -1,12 +1,12 @@
 const serverIP = prompt("Enter server IP (e.g., 192.168.0.101):", "127.0.0.1");
-const socket = new WebSocket(`ws://${serverIP}:54321`);
+const socket = new WebSocket(`ws://${serverIP}:8000`);
 
 const messagesDiv = document.getElementById("messages");
 const input = document.getElementById("input");
 const sendButton = document.getElementById("send");
 
 socket.onopen = () => {
-  appendMessage("✅ Connected to LocalBridge server.");
+  appendMessage("✅ Connected to the server.");
 };
 
 socket.onmessage = (event) => {
@@ -14,7 +14,7 @@ socket.onmessage = (event) => {
 };
 
 socket.onclose = () => {
-  appendMessage("❌ Disconnected from server.");
+  appendMessage("❌ Disconnected from the server.");
 };
 
 function appendMessage(message) {

@@ -1,7 +1,3 @@
-# WebSocket Server
-# Author: Ahmed Jawad Tamid
-# Date: Mar 24, 2025
-
 import asyncio
 import websockets
 
