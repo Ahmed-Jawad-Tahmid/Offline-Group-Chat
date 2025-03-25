@@ -50,30 +50,33 @@ body {
 }
 
 .message {
-  margin: 8px 0;
+  display: block;
+  margin: 8px;
   padding: 8px 12px;
   border-radius: 6px;
   line-height: 1.5;
   white-space: pre-wrap;
-  max-width: 80%;
   word-wrap: break-word;
+  max-width: 70%;
+  clear: both;
 }
 
 .self {
   background-color: #234323;
   color: #c4f5c4;
-  text-align: right;
-  margin-left: auto;
   border-left: 4px solid #4CAF50;
+  float: right;
+  text-align: left;
 }
 
 .other {
   background-color: #1a1a1a;
   color: #e6e6e6;
-  text-align: left;
-  margin-right: auto;
   border-left: 4px solid #444;
+  float: left;
+  text-align: left;
 }
+
 
 .system {
   color: #00ff9c;
@@ -87,7 +90,7 @@ body {
   margin-right: 8px;
 }
 
-/* For mobile devices */
+/* 🔄 Mobile-responsive adjustments */
 @media (max-width: 600px) {
   #input-area {
     flex-direction: column;
@@ -100,5 +103,10 @@ body {
 
   .message {
     font-size: 0.95rem;
+    max-width: 95%;
+  }
+
+  #messages {
+    padding: 12px;
   }
 }
