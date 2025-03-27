@@ -4,7 +4,7 @@
 This  is a LAN-based real-time messaging app that lets users connect and communicate *without the internet*. Whether you're at a hackathon, in a remote location, or just building your own local comms tool — this project has you covered.
 
 Built using:
-- Python (WebSocket server with `websockets`)
+- Python (WebSocket server)
 - Vanilla JS + HTML/CSS frontend
 - Works in any modern browser over a shared Wi-Fi or hotspot
 
