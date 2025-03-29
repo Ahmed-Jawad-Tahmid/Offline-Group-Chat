@@ -143,7 +143,7 @@ pip  install  websockets
 
 ![PC Chat Demo 1](https://github.com/Ahmed-Jawad-Tahmid/Offline-Group-Chat/blob/main/screenshots/Screenshot%201.png?raw=true)
 
-*Two different users chatting on separate browser sessions*
+*Two different users chatting from their pc*
 
 ![PC Chat Demo 2](https://github.com/Ahmed-Jawad-Tahmid/Offline-Group-Chat/blob/main/screenshots/Screenshot%202.png?raw=true)
 
