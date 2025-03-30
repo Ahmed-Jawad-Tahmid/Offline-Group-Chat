@@ -149,7 +149,7 @@ pip  install  websockets
 
 ---
 
-### 📱 Mobile Chat (iPhone)
+### Mobile Chat (iPhone)
 
 <img src="https://github.com/Ahmed-Jawad-Tahmid/Offline-Group-Chat/blob/main/screenshots/screenshot%203.jpg?raw=true" alt="Mobile Chat Screenshot" width="350"/>
 
