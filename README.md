@@ -135,15 +135,17 @@ pip  install  websockets
 ```
 ---
 
-##  Screenshots
+---
+
+
+## Screenshots
 
 > Real-time offline chat happening across devices — no internet involved.
 
-### Users joining from PC
+### Users Joining from PC
 
-![PC Chat Demo 1](https://github.com/Ahmed-Jawad-Tahmid/Offline-Group-Chat/blob/main/screenshots/Screenshot%201.png?raw=true)
-
-*Two different users chatting from their pc*
+![PC Chat Demo 1](https://github.com/Ahmed-Jawad-Tahmid/Offline-Group-Chat/blob/main/screenshots/Screenshot%201.png?raw=true)  
+*Two different users chatting on separate browser sessions*
 
 ![PC Chat Demo 2](https://github.com/Ahmed-Jawad-Tahmid/Offline-Group-Chat/blob/main/screenshots/Screenshot%202.png?raw=true)
 
